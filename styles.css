@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(6, 6, 62);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(191, 191, 228);
+    font-size: 1.04rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+   
+}
+
+.firstSection .btn{
+    padding: 12px;
+    background-color: rgb(36, 36, 110);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.firstSection .button{
+    padding: 23px;
+}
+
+.firstSection> div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 2rem;
+    margin: 70px 0;
+}
+
+.rightSection img{
+width: 80%;
+margin: 50px 0;
+}
+
+.purple{
+    color: rgb(122, 60, 181);
+}
+#element{
+    color: rgb(122, 60, 181);
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background-color: rgb(103, 61, 142);
+    height: 1.2px;
+    margin: 40px 80px;
+}
+.secondSection h1{
+font-size: 1.5rem;
+}
+.tex-gray{
+    color: gray;
+}
+
+.secondSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+height: 93px;
+width: 1px;
+background-color: white;
+margin: 0 100px;
+}
+.img-top{
+    width: 25px;
+    position: relative;
+    top:-30px;
+    left: -9px;
+}
+.vertical-title{
+position: relative;
+top: 75px;
+width: 150px;
+}
+.vertical-desc{
+position: relative;
+top: 86px;
+color: gray;
+width: 150px;
+font-size: 9px;
+}
+
+footer{
+    background-color: rgb(8, 8, 36);
+    height: 233px;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer>div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
